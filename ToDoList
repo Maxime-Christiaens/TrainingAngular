@@ -1,0 +1,30 @@
+- Typescript (TS) *
+
+Portée des variables (private, public)
+Typage des variables, retour des fonctions : OK
+
+
+- Angular 7
+
+Module *
+Lazy-Loading *
+Routing *
+Guard
+Resolver *
+Component *
+Directive
+Service *
+Templating (*ngFor, *ngIf, [ngClass], {{data}}, pipes, (click), [(ngModel)]) *
+HttpClient (get, post, put, delete) *
+
+- RxJS
+
+Observable *
+switchMap, forkJoin
+
+- Fondements Javascript *
+
+Fonctions filter, findIndex, find, splice, indexOf, forEach, map
+Boucles for...in, for...of
+sessionStorage/localStorage/cookie
+Lib moment.js
