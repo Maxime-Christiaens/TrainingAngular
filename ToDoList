@@ -1,7 +1,7 @@
 - Typescript (TS) *
 
 Portée des variables (private, public)
-Typage des variables, retour des fonctions : OK
+Typage des variables, retour des fonctions = OK
 
 
 - Angular 7
@@ -11,7 +11,7 @@ Lazy-Loading *
 Routing *
 Guard
 Resolver *
-Component *
+Component * = wip
 Directive
 Service *
 Templating (*ngFor, *ngIf, [ngClass], {{data}}, pipes, (click), [(ngModel)]) *
@@ -24,7 +24,7 @@ switchMap, forkJoin
 
 - Fondements Javascript *
 
-Fonctions filter, findIndex, find, splice, indexOf, forEach, map
-Boucles for...in, for...of
+Fonctions filter, findIndex, find, splice, indexOf, forEach, map = wip
+Boucles for...in, for...of = wip
 sessionStorage/localStorage/cookie
 Lib moment.js
