@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-appareils',
@@ -7,14 +7,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppareilsComponent implements OnInit {
 
-  machineName = "Chaudière"
-  machineStatus = "ON"
+  @Input() appareilName: string;
+
+  skavens: string = "Dead"
+  machineName: string = "Chaudière"
+  machineStatus: string = "ON"
+
+  public input: string = ""
+  
+  getInput (){
+    console.log(this.input)
+  }
   constructor() { }
 
   ngOnInit() {
   }
-
   getStatus() {
     return this.machineStatus
+  }
+  getColor() {
+    return this.input
   }
 }

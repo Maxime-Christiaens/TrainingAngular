@@ -6,15 +6,15 @@ Typage des variables, retour des fonctions = OK
 
 - Angular 7
 
-Module *
+Module * = OK
 Lazy-Loading *
 Routing *
 Guard
 Resolver *
-Component * = wip
+Component * = Okay
 Directive
 Service *
-Templating (*ngFor, *ngIf, [ngClass], {{data}}, pipes, (click), [(ngModel)]) *
+Templating (*ngFor, *ngIf, [ngClass], {{data}}, pipes, (click), [(ngModel)]) * = en cours
 HttpClient (get, post, put, delete) *
 
 - RxJS

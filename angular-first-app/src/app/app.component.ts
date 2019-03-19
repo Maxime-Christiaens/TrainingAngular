@@ -12,9 +12,26 @@ export class AppComponent {
     setTimeout(
       () => {
         this.isAuth = true
-    }, 1000)
+    }, 1500)
   }
   onEteindre() {
-    alert("hello bitch")
+    alert("hello world ")
+  }
+  warhammer = [
+    {
+      name: "Bretonnie",
+      trait : "Knights EveryWhere"
+    },
+    {
+      name: "Vampire",
+      trait : "Zombies EveryWhere"
+    },
+    {
+      name: "Dwarfs",
+      trait : "Canons EveryWhere "
+    }
+  ]
+  getFactionColor (){
+    return "red";
   }
 }
