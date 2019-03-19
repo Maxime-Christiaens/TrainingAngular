@@ -1,6 +1,6 @@
 <li>
   <div *ngIf="machineStatus === 'ON'">
-    <h4 [ngStyle]="{'color': getColor()}" >Appareil : {{ input }} -- Status : {{ getStatus() }}</h4>
+    <h4 [ngStyle]="{'color': getColor()}" >Input : {{ input }} -- Status : {{ getStatus() }}</h4>
     <input [(ngModel)]="input" type="text">
     <button (click)="getInput()"></button>
   </div>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -33,5 +33,9 @@ export class AppComponent {
   ]
   getFactionColor (){
     return "red";
+  }
+  public input :string
+  getBGColor(){
+    return this.input
   }
 }
