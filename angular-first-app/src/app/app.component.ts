@@ -38,4 +38,5 @@ export class AppComponent {
   getBGColor(){
     return this.input
   }
+  date = new Date();
 }

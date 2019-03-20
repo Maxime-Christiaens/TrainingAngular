@@ -1,0 +1,8 @@
+<div [ngStyle]="{'background-color': bgColor()}">
+  <h4> {{ postTitle }} </h4>
+  <p> {{ postContent }} </p>
+  <p> {{ postCreated_at | date:shortDate }} </p>
+  <h6> {{ postLoveIts }} </h6>
+  <button (click)="like()">Like</button>
+  <button (click)="dislike()">Dislike</button>
+</div>
