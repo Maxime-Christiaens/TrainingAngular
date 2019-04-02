@@ -11,10 +11,10 @@ Lazy-Loading *
 Routing *
 Guard
 Resolver *
-Component * = Okay
+Component * = OK
 Directive
-Service *
-Templating (*ngFor, *ngIf, [ngClass], {{data}}, pipes, (click), [(ngModel)]) * = en cours
+Service * 
+Templating (*ngFor, *ngIf, [ngClass], {{data}}, pipes, (click), [(ngModel)]) * = OK
 HttpClient (get, post, put, delete) *
 
 - RxJS
