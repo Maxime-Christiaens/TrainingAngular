@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
-import { TestServiceService } from "./services/test-service.service";
+import { Component, OnInit } from '@angular/core';
+import { TestServiceService } from "./../services/test-service.service";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-warhammer',
+  templateUrl: './warhammer.component.html',
+  styleUrls: ['./warhammer.component.scss']
 })
-export class AppComponent {
+export class WarhammerComponent implements OnInit {
   faction = ["Bretonie", "Chaos", "Hauts Elfes", "Elfes Noirs", "Elfes des bois", "Empire", "Nains", "Hommes-bêtes", "Hommes-Lezard", "Pirates Vampires", "Vampire", "Rois des tombes", "Skavens"]
   number1 = 0;
   number2 = 1;
@@ -21,4 +21,8 @@ export class AppComponent {
   }
   
   title:string = 'Random Warhammer';
+
+  ngOnInit() {
+  }
+
 }

@@ -1,15 +1,6 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="https://cdn.wccftech.com/wp-content/uploads/2017/08/Total-War-Warhammer-2-Interview-01-Warhammer-2-Logo-2060x890.jpg">
-</div>
-<div style="text-align:center">
-  <h2> {{ faction[number1] }} </h2>
-  <h2>Versus</h2>
-  <h2> {{ faction[number2] }} </h2>
-  <button (click)="random()">Random</button>
-</div>
+<nav>
+<a [routerLink]="['/warhammer']">Warhammer</a>
+<a [routerLink]="['/testouille']">testouille</a>
+</nav>
 
 <router-outlet></router-outlet>
